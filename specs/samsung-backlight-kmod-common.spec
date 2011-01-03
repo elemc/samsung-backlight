@@ -1,5 +1,5 @@
 Name:		samsung-backlight-kmod-common
-Version:	svn20101109
+Version:	svn20110103
 Release:	1%{?dist}
 Summary:	Empty package for samsung-backlight-kmod
 
@@ -29,5 +29,7 @@ This package is empty required for Samsung Laptops Backlight driver
 %clean
 
 %changelog
+* Mon Jan  3 2011  Alexei Panov <elemc@atisserv.ru> - svn20110103-1
+- Added new models
 * Tue Nov  9 2010  Alexei Panov <elemc@atisserv.ru> - svn20101109-1
 - Initial build. The patch add install instructions.

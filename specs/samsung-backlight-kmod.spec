@@ -6,7 +6,7 @@
 %define buildforkernels current
 
 Name:		samsung-backlight-kmod
-Version:	svn20101109
+Version:	svn20110103
 Release:	1%{?dist}
 Summary:	Kernel module for Samsung laptops backlight
 
@@ -67,5 +67,7 @@ chmod 0755 $RPM_BUILD_ROOT/%{kmodinstdir_prefix}/*/%{kmodinstdir_postfix}/*
 rm -rf $RPM_BUILD_ROOT
 
 %changelog
+* Mon Jan  3 2011  Alexei Panov <elemc@atisserv.ru> - svn20110103-1
+- Added new models
 * Tue Nov  9 2010  Alexei Panov <elemc@atisserv.ru> - svn20101109-1
 - Initial build. The patch add install instructions.
